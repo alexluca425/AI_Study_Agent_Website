@@ -25,8 +25,15 @@ export const Navigation = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-8 py-6">
         <div className="flex justify-between items-center">
-          <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            AI Tutor
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/7414ea5f-40a1-49eb-9dab-373eae1fbce6.png" 
+              alt="AI Tutor Logo" 
+              className="h-8 w-8"
+            />
+            <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+              AI Tutor
+            </div>
           </div>
           <div className="hidden md:flex space-x-12">
             <button 
