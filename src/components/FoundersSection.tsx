@@ -42,7 +42,7 @@ export const FoundersSection = () => {
             <div className="flex-shrink-0">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" 
+                  src="../../../public/lovable-uploads/Screenshot 2025-06-27 183112.png" 
                   alt="Founder" 
                   className="w-56 h-56 rounded-full object-cover shadow-2xl ring-4 ring-purple-100"
                 />
@@ -51,7 +51,7 @@ export const FoundersSection = () => {
             </div>
             
             <div className="flex-1 text-center md:text-left space-y-8">
-              <h3 className="text-4xl font-bold text-gray-900">Alex Johnson</h3>
+              <h3 className="text-4xl font-bold text-gray-900">Alex Luca</h3>
               <p className="text-xl text-gray-600 leading-relaxed font-light">
                 Former top-level athlete turned AI builder. Discipline, grit, and a relentless 
                 drive to solve the student motivation and performance crisis.

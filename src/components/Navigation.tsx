@@ -27,12 +27,12 @@ export const Navigation = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/7414ea5f-40a1-49eb-9dab-373eae1fbce6.png" 
+              src="/lovable-uploads/AI_Study_Agent_logo.png" 
               alt="AI Tutor Logo" 
               className="h-8 w-8"
             />
             <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              AI Tutor
+              AI Study Agent
             </div>
           </div>
           <div className="hidden md:flex space-x-12">
@@ -52,7 +52,7 @@ export const Navigation = () => {
               onClick={() => scrollToSection('is-it-for-me')}
               className="text-gray-700 hover:text-purple-600 transition-all duration-300 font-semibold text-lg hover:scale-105"
             >
-              Is It For Me?
+              Who It's For
             </button>
             <button 
               onClick={() => scrollToSection('founders')}

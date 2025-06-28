@@ -48,23 +48,23 @@ export const SocialProofSection = () => {
           <div className={`text-center p-10 bg-white/80 backdrop-blur-sm rounded-2xl border border-green-100/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-400 section-fade-in ${isVisible ? 'visible' : ''}`} style={{animationDelay: '0.1s'}}>
             <CheckCircle className="w-16 h-16 text-green-600 mx-auto mb-6" />
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Proven Results</h3>
-            <p className="text-lg text-gray-600 leading-relaxed">Rolled out in first school for Grade 9 & 10</p>
+            <p className="text-lg text-gray-600 leading-relaxed">Demo exceeded expectations. Rolling out schoolwide in September at Sacred Heart Catholic High School</p>
           </div>
 
           <div className={`text-center p-10 bg-white/80 backdrop-blur-sm rounded-2xl border border-blue-100/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-400 section-fade-in ${isVisible ? 'visible' : ''}`} style={{animationDelay: '0.2s'}}>
             <CheckCircle className="w-16 h-16 text-blue-600 mx-auto mb-6" />
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Industry Interest</h3>
-            <p className="text-lg text-gray-600 leading-relaxed">20+ meetings with schools/tutoring companies</p>
+            <p className="text-lg text-gray-600 leading-relaxed">15+ meetings with private schools and tutoring companies</p>
           </div>
 
           <div className={`text-center p-10 bg-white/80 backdrop-blur-sm rounded-2xl border border-purple-100/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-400 section-fade-in ${isVisible ? 'visible' : ''}`} style={{animationDelay: '0.3s'}}>
             <CheckCircle className="w-16 h-16 text-purple-600 mx-auto mb-6" />
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Addressing Real Need</h3>
-            <p className="text-lg text-gray-600 leading-relaxed">15% of Ontario Grade 10 students fail literacy test — we're fixing that</p>
+            <p className="text-lg text-gray-600 leading-relaxed">Only 54% of Grade 9 students in Ontario meet the provincial standard in math. Things aren't looking better across the rest of North America — we're fixing that</p>
           </div>
         </div>
 
-        <div className={`text-center section-fade-in ${isVisible ? 'visible' : ''}`} style={{animationDelay: '0.4s'}}>
+        {/* <div className={`text-center section-fade-in ${isVisible ? 'visible' : ''}`} style={{animationDelay: '0.4s'}}>
           <h3 className="text-3xl font-bold text-gray-900 mb-12">Trusted by Leading Schools</h3>
           <div className="flex flex-wrap justify-center items-center gap-8">
             <div className="bg-white/60 backdrop-blur-sm px-10 py-6 rounded-2xl text-xl font-semibold text-gray-600 border border-gray-200/50 hover:shadow-lg transition-all duration-300">School Partner 1</div>
@@ -72,7 +72,7 @@ export const SocialProofSection = () => {
             <div className="bg-white/60 backdrop-blur-sm px-10 py-6 rounded-2xl text-xl font-semibold text-gray-600 border border-gray-200/50 hover:shadow-lg transition-all duration-300">School Partner 3</div>
             <div className="bg-white/60 backdrop-blur-sm px-10 py-6 rounded-2xl text-xl font-semibold text-gray-600 border border-gray-200/50 hover:shadow-lg transition-all duration-300">School Partner 4</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -35,7 +35,7 @@ export const IsItForMeSection = () => {
       <div className="max-w-7xl mx-auto px-8 relative z-10">
         <div className={`text-center mb-24 section-fade-in ${isVisible ? 'visible' : ''}`}>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-12 tracking-tight">
-            Is It For Me?
+            Who It's For
           </h2>
         </div>
 
@@ -73,7 +73,7 @@ export const IsItForMeSection = () => {
             size="lg" 
             className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-12 py-6 text-xl font-semibold rounded-full shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-110 hover:-translate-y-1"
           >
-            See it in action
+            <a href="https://calendly.com/alex-luca425/book-a-call-with-me" target="_blank" rel="noopener noreferrer">See it in action</a>
           </Button>
         </div>
       </div>

@@ -29,14 +29,14 @@ export const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className={`relative z-10 text-center max-w-5xl mx-auto px-8 section-fade-in ${isVisible ? 'visible' : ''}`}>
-        <div className="flex justify-center mb-8">
+      <div className={`relative z-10 text-center max-w-5xl mx-auto px-8 section-fade-in ${isVisible ? 'visible' : ''} `}>
+        {/* <div className="flex justify-center mb-8">
           <img 
             src="/lovable-uploads/7414ea5f-40a1-49eb-9dab-373eae1fbce6.png" 
             alt="AI Tutor Logo" 
-            className="h-16 w-16 md:h-20 md:w-20"
+            className="h-56 w-16 md:h-20 md:w-20"
           />
-        </div>
+        </div> */}
         <h1 className="text-6xl md:text-8xl font-bold text-gray-900 leading-tight mb-8 tracking-tight">
           The AI Tutor Built for the{' '}
           <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
@@ -50,7 +50,7 @@ export const HeroSection = () => {
           size="lg" 
           className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-12 py-6 text-xl font-semibold rounded-full shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-110 hover:-translate-y-1"
         >
-          Book a Demo
+        <a href="https://calendly.com/alex-luca425/book-a-call-with-me" target="_blank" rel="noopener noreferrer">Book a Demo</a>
         </Button>
       </div>
     </section>
