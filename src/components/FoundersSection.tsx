@@ -42,7 +42,7 @@ export const FoundersSection = () => {
             <div className="flex-shrink-0">
               <div className="relative">
                 <img 
-                  src="../../../public/lovable-uploads/founder_photo.png" 
+                  src="/lovable-uploads/founder_photo.png"
                   alt="Founder" 
                   className="w-56 h-56 rounded-full object-cover shadow-2xl ring-4 ring-purple-100"
                 />
